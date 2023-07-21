@@ -57,6 +57,7 @@ add_message_files(
 add_service_files(
   FILES
   AddTwoInts.srv
+  fibo.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -140,6 +141,13 @@ catkin_install_python(PROGRAMS scripts/add_two_ints_server.py scripts/add_two_in
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
+catkin_install_python(PROGRAMS scripts/navigator.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+catkin_install_python(PROGRAMS scripts/navigator.py scripts/autopose.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

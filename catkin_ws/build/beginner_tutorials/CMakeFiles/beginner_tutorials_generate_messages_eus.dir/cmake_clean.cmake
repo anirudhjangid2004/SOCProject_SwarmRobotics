@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/anirudh/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l"
   "/home/anirudh/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/firstmsg.l"
   "/home/anirudh/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l"
+  "/home/anirudh/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/fibo.l"
   "CMakeFiles/beginner_tutorials_generate_messages_eus"
 )
 

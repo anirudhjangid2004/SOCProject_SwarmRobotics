@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/anirudh/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/firstmsg.js"
   "/home/anirudh/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/AddTwoInts.js"
+  "/home/anirudh/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/fibo.js"
   "CMakeFiles/beginner_tutorials_generate_messages_nodejs"
 )
 
